@@ -1,0 +1,42 @@
+/*Establece el tamaño de referencia del padre*/
+html{
+    font-size: 24px;
+}
+/*Establece la medida del h1 en base a los pixeles indicados*/
+h1{
+    font-size: 16px;
+}
+/*Indica el tamaño del h2 usando como referencia 1 rem que son 24 px en base al tamaño especificado en el padre*/
+h2{
+    font-size: 1rem;
+}
+/*Indica el tamaño del h3 usando como referencia 1.75 rem que son 42 px en base al tamaño especificado en el padre*/
+h3{
+    font-size: 1.75rem;
+}
+/*Indica el tamaño del h4 usando como referencia 1.5 rem que son 36 px en base al tamaño especificado en el padre*/
+h4{
+    font-size: 1.5rem;
+}
+/*Indica el tamaño del h5 usando como referencia 1.25 rem que son 30 px en base al tamaño especificado en el padre*/
+h5{
+    font-size: 1.25rem;
+}
+/*Indica el tamaño del h6 usando como referencia 1.05 rem que son 25.2 px en base al tamaño especificado en el padre*/
+h6{
+    font-size: 1.05rem;
+}
+/*Es una etiqueta en base a las especificaciones que contiene, forma un rectangulo con tamaño y color específico*/
+.contenedor{
+    width: 70%;
+    height: 400px;
+    background-color: aqua;
+    margin: 30px auto;
+}
+/*Es una etiqueta que establece las características del rectangulo hijo, en base a las especificaciones establecidas*/
+.hijo{
+    width: 1vw;
+    height: 50vw;
+    background-color: blueviolet;
+    margin: 30px auto;
+}
